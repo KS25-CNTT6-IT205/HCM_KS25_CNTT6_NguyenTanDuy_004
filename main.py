@@ -276,7 +276,7 @@ class OrderManager:
                 print("Hoàn thành thao tác tìm kiếm")
             
             if not flag:
-                print("Không tìm thấy đơn phù h!")
+                print("Không tìm thấy đơn phù hợp!")
         except EmptyList as exc_emp_list:
             print(exc_emp_list)
             
