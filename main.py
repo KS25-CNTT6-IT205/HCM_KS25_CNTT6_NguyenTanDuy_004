@@ -88,7 +88,7 @@ class OrderManager:
                 if not or_quantity:
                     print("Nhập liệu không được để trống! Nhập lại!")
                     continue
-                if or_quantity <= 0:
+                if or_quantity < 1 or or_quantity > 1000:
                     print("Số lượng nhập không hợp lệ! Nhập lại!")
                     continue
                 break
@@ -165,7 +165,7 @@ class OrderManager:
                                 if not or_quantity:
                                     print("Nhập liệu không được để trống! Nhập lại!")
                                     continue
-                                if or_quantity <= 0:
+                                if or_quantity < 1 or or_quantity > 1000:
                                     print("Số lượng nhập không hợp lệ! Nhập lại!")
                                     continue
                                 break
